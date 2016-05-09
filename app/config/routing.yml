@@ -1,0 +1,8 @@
+acme_demo:
+    resource: "@AcmeDemoBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
